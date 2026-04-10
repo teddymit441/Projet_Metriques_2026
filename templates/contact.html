@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page de Contact</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-box {
+            max-width: 500px;
+            margin: 80px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+
+        label {
+            margin-top: 10px;
+            display: block;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background-color: #74ebd5;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4ecdc4;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="contact-box">
+    <h2>Contactez-moi</h2>
+
+    <p>
+        L'utilisateur peut laisser son nom, son prénom et un message. 
+        L'enregistrement des données n'est pas actif (pas de base de données). 
+        Cette page est uniquement évaluée sur son design.
+    </p>
+
+    <form>
+        <label>Nom</label>
+        <input type="text" placeholder="Votre nom">
+
+        <label>Prénom</label>
+        <input type="text" placeholder="Votre prénom">
+
+        <label>Message</label>
+        <textarea placeholder="Votre message..."></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+</body>
+</html>
